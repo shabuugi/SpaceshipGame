@@ -1,0 +1,650 @@
+fileFormatVersion: 2
+guid: 018084a8ab0651e46b57123e94a0882c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 547724274750328692
+    second: 2D Spaceship Model_0
+  - first:
+      213: -1842840107341771889
+    second: 2D Spaceship Model_1
+  - first:
+      213: 2109817017002213291
+    second: 2D Spaceship Model_2
+  - first:
+      213: -7639012561821354375
+    second: 2D Spaceship Model_3
+  - first:
+      213: 5760215249279052499
+    second: 2D Spaceship Model_4
+  - first:
+      213: 2332105888782130388
+    second: 2D Spaceship Model_5
+  - first:
+      213: 3440048860701230551
+    second: 2D Spaceship Model_6
+  - first:
+      213: -7293771871615056854
+    second: 2D Spaceship Model_7
+  - first:
+      213: 2095932922296048267
+    second: 2D Spaceship Model_8
+  - first:
+      213: 3751880248730344299
+    second: 2D Spaceship Model_9
+  - first:
+      213: 2582306720417527370
+    second: 2D Spaceship Model_10
+  - first:
+      213: -7267860644283039786
+    second: 2D Spaceship Model_11
+  - first:
+      213: 639489751794758880
+    second: 2D Spaceship Model_12
+  - first:
+      213: 5486184678416787797
+    second: 2D Spaceship Model_13
+  - first:
+      213: 2880761960689878158
+    second: 2D Spaceship Model_14
+  - first:
+      213: -1895479839896523403
+    second: 2D Spaceship Model_15
+  - first:
+      213: -2162599359048212068
+    second: 2D Spaceship Model_16
+  - first:
+      213: -6155762369600934903
+    second: 2D Spaceship Model_17
+  - first:
+      213: -5374645630027810135
+    second: 2D Spaceship Model_18
+  - first:
+      213: 2115053733514725926
+    second: 2D Spaceship Model_19
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: 2D Spaceship Model_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1024
+        height: 1532
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47f0a5f6358e99700800000000000000
+      internalID: 547724274750328692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D Spaceship Model_1
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 415
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8b0d08afaaec66e0800000000000000
+      internalID: -1842840107341771889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D Spaceship Model_2
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 535
+        width: 132
+        height: 281
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bafbd7f0663974d10800000000000000
+      internalID: 2109817017002213291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D Spaceship Model_3
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 415
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97634e95c86ccf590800000000000000
+      internalID: -7639012561821354375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D Spaceship Model_4
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 82
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3dae013104560ff40800000000000000
+      internalID: 5760215249279052499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D Spaceship Model_5
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 623
+        width: 370
+        height: 503
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4dc947723fd4d5020800000000000000
+      internalID: 2332105888782130388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D Spaceship Model_6
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 1135
+        width: 261
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d5851076328dbf20800000000000000
+      internalID: 3440048860701230551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D Spaceship Model_7
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 264
+        width: 263
+        height: 281
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2406a7702157ca90800000000000000
+      internalID: -7293771871615056854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D Spaceship Model_8
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 559
+        width: 76
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8a908a53ef361d10800000000000000
+      internalID: 2095932922296048267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D Spaceship Model_9
+      rect:
+        serializedVersion: 2
+        x: 493
+        y: 527
+        width: 36
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6b5069353b511430800000000000000
+      internalID: 3751880248730344299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D Spaceship Model_10
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 559
+        width: 78
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a463793d74236d320800000000000000
+      internalID: 2582306720417527370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D Spaceship Model_11
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 466
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6dfb774304f532b90800000000000000
+      internalID: -7267860644283039786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D Spaceship Model_12
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 535
+        width: 137
+        height: 280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e4ba358a8cefd800800000000000000
+      internalID: 639489751794758880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D Spaceship Model_13
+      rect:
+        serializedVersion: 2
+        x: 726
+        y: 80
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5592931e5e7d22c40800000000000000
+      internalID: 5486184678416787797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D Spaceship Model_14
+      rect:
+        serializedVersion: 2
+        x: 787
+        y: 80
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e84c0658db58af720800000000000000
+      internalID: 2880761960689878158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D Spaceship Model_15
+      rect:
+        serializedVersion: 2
+        x: 814
+        y: 1207
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57dad08d027e1b5e0800000000000000
+      internalID: -1895479839896523403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D Spaceship Model_16
+      rect:
+        serializedVersion: 2
+        x: 873
+        y: 415
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c91a1744757ecf1e0800000000000000
+      internalID: -2162599359048212068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D Spaceship Model_17
+      rect:
+        serializedVersion: 2
+        x: 940
+        y: 82
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90c283e4db6529aa0800000000000000
+      internalID: -6155762369600934903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D Spaceship Model_18
+      rect:
+        serializedVersion: 2
+        x: 969
+        y: 415
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9aa369c864c6965b0800000000000000
+      internalID: -5374645630027810135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D Spaceship Model_19
+      rect:
+        serializedVersion: 2
+        x: 993
+        y: 415
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62a42032a2e2a5d10800000000000000
+      internalID: 2115053733514725926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      2D Spaceship Model_0: 547724274750328692
+      2D Spaceship Model_1: -1842840107341771889
+      2D Spaceship Model_10: 2582306720417527370
+      2D Spaceship Model_11: -7267860644283039786
+      2D Spaceship Model_12: 639489751794758880
+      2D Spaceship Model_13: 5486184678416787797
+      2D Spaceship Model_14: 2880761960689878158
+      2D Spaceship Model_15: -1895479839896523403
+      2D Spaceship Model_16: -2162599359048212068
+      2D Spaceship Model_17: -6155762369600934903
+      2D Spaceship Model_18: -5374645630027810135
+      2D Spaceship Model_19: 2115053733514725926
+      2D Spaceship Model_2: 2109817017002213291
+      2D Spaceship Model_3: -7639012561821354375
+      2D Spaceship Model_4: 5760215249279052499
+      2D Spaceship Model_5: 2332105888782130388
+      2D Spaceship Model_6: 3440048860701230551
+      2D Spaceship Model_7: -7293771871615056854
+      2D Spaceship Model_8: 2095932922296048267
+      2D Spaceship Model_9: 3751880248730344299
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
