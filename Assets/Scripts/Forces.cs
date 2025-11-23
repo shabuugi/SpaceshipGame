@@ -33,7 +33,7 @@ public class Forces : MonoBehaviour
     {
         if (upForce.IsPressed() && rb.linearVelocity.magnitude < maxSpeed)
         {
-            rb.AddForce(new Vector2(0f, forceStrength) , ForceMode2D.Force);
+            rb.AddForce(transform.up * forceStrength, ForceMode2D.Force);
         }
         if (leftTorque.IsPressed() && rb.angularVelocity < maxAngularVelocity)
         {
