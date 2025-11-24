@@ -36,4 +36,61 @@ Keeps the player centered on screen while the world moves around them.
 restart the game when the r key is pressed.
 
 
+                 ┌──────────────────────────┐
+                 │        Forces            │
+                 ├──────────────────────────┤
+                 │ - forceStrength: float   │
+                 │ - torqueStrength: float  │
+                 │ - maxSpeed: float        │
+                 │ - maxAngularVelocity: float │
+                 │ - rb: Rigidbody2D        │
+                 │ - upForce: InputAction   │
+                 │ - leftTorque: InputAction│
+                 │ - rightTorque: InputAction│
+                 │ - forwardIndicator: GameObject │
+                 ├──────────────────────────┤
+                 │ + Start()                │
+                 │ + OnEnable()             │
+                 │ + FixedUpdate()          │
+                 └──────────────────────────┘
+                          ▲
+                          │ uses
+                          │
+    ┌──────────────────────────┐
+    │        Collision         │
+    ├──────────────────────────┤
+    │ - safeLandingSpeed: float│
+    │ - winText: GameObject    │
+    │ - loseText: GameObject   │
+    │ - restartText: GameObject│
+    │ - lost: bool             │
+    ├──────────────────────────┤
+    │ + OnCollisionEnter2D()   │
+    │ + Win()                  │
+    │ + Lose()                 │
+    └──────────────────────────┘
+          ▲         ▲
+          │         │
+    disables │         │ shows/hides UI
+          │         │
+          │
+    ┌──────────────────────────┐
+    │         Restart          │
+    ├──────────────────────────┤
+    │ - restartAction: InputAction │
+    ├──────────────────────────┤
+    │ + Update()               │
+    │ + OnEnable()             │
+    └──────────────────────────┘
+
+
+        ┌─────────────────────────┐
+        │         Follow          │
+        ├─────────────────────────┤
+        │ - target: GameObject    │
+        │ - minY: float           │
+        │ - maxY: float           │
+        ├─────────────────────────┤
+        │ + LateUpdate()          │
+        └─────────────────────────┘
 
