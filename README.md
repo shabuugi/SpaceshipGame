@@ -14,5 +14,7 @@ Avoid asteroids, Any collision will destroy the ship.
 ## 🛬 Landing
 To successfully land:
 - Approach the ground slowly  
-- Touch down with low velocity  
+- Touch down with low velocity
+
+[itch.io](https://rs-co.itch.io/spaceship-game)
 
