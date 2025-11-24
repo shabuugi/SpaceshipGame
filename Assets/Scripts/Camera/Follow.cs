@@ -6,11 +6,12 @@ public class Follow : MonoBehaviour
     [SerializeField] GameObject target;
 
     [SerializeField] float minY;
+
     [SerializeField] float maxY;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        
     }
 
     // Update is called once per frame
@@ -24,5 +25,4 @@ public class Follow : MonoBehaviour
         pos.y = Mathf.Clamp(pos.y, minY, maxY);
         transform.position = pos;
     }
-
 }

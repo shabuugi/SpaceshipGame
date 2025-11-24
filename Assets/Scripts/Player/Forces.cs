@@ -12,7 +12,9 @@ public class Forces : MonoBehaviour
     [SerializeField] InputAction rightTorque = new InputAction(type: InputActionType.Button);
     [SerializeField] GameObject forwardIndicator;
     [SerializeField] float maxSpeed = 5f;
+
     [SerializeField] float maxAngularVelocity = 5f;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -35,6 +37,7 @@ public class Forces : MonoBehaviour
         {
             rb.AddForce(transform.up * forceStrength, ForceMode2D.Force);
         }
+
         if (leftTorque.IsPressed() && rb.angularVelocity < maxAngularVelocity)
         {
             rb.AddTorque(torqueStrength);
@@ -44,12 +47,10 @@ public class Forces : MonoBehaviour
         {
             rb.AddTorque(-torqueStrength);
         }
-        
     }
 
     // Update is called once per frame
     void Update()
     {
-        
     }
 }
