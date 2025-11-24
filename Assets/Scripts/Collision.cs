@@ -7,10 +7,11 @@ public class Collision : MonoBehaviour
     [SerializeField] GameObject winText;
     [SerializeField] GameObject loseText;
     [SerializeField] GameObject restartText;
+    private bool lost;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        
+        lost = false;
     }
 
     // Update is called once per frame
@@ -29,7 +30,7 @@ public class Collision : MonoBehaviour
             return;
         }
 
-        if (collision.collider.CompareTag("Ground"))
+        if (collision.collider.CompareTag("Ground") && !lost)
         {
             if (speed < safeLandingSpeed)
             {
@@ -56,6 +57,7 @@ public class Collision : MonoBehaviour
         loseText.SetActive(true);
         restartText.SetActive(true);
         GetComponent<Forces>().enabled = false;
+        lost = true;
     }
 
 }
